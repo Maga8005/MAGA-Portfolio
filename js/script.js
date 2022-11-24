@@ -106,7 +106,7 @@ let portfolioLinks = document.querySelectorAll('.portfolio__link'),
     portfolioItems = document.querySelectorAll('.portfolio__card')
 
 for (let i=0; i<portfolioLinks.length; i++){
-  portfolioLinks[i].addEventListener('click',function(){
+  portfolioLinks[i].addEventListener('ontouchstart',function(){
     for(let j=0; j<portfolioLinks.length; j++){
       portfolioLinks[j].classList.remove('portfolio__nav-active');
     }

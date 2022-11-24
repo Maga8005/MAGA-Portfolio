@@ -738,6 +738,7 @@ img {
   border-radius: 0.23rem;
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
+  height: 358px;
 }
 
 .portfolio__card img {

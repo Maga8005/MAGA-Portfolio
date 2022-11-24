@@ -5,9 +5,10 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="/styles.css" />
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link rel="stylesheet" href="/css/swiper-bundle.min.css">
   <title>Maga Designer</title>
 </head>
 
@@ -138,7 +139,7 @@
             </div>
           </div>
           <div class="about__buttons">
-            <a download="" href="/MaAlejandraGaitan-CV-EN.pdf" class="button button--flex">
+            <a download="" href="/pdf/MaAlejandraGaitan-CV-EN.pdf" class="button button--flex">
               Download CV
               <i class="uil uil-download-alt button__icon"></i>
             </a>
@@ -567,7 +568,6 @@
 
       </div>
       <div class="portfolio__container container">
-
         <div class="portfolio__content grid">
           <!--================ PORTAFOLIO PROJECTS ================-->
           <div data-item="fullstack" class="portfolio__card show">
@@ -693,14 +693,33 @@
           </div>
         </div>
       </div>
+    </section>
 
+    <!--================ CUSTOMERS ================-->
 
+    <section class="customers section">
+      <h2 class="section__title">My customers</h2>
+      <span class="section__subtitle">Some of them are</span>
+      <div class="customer__container container swiper-container">
+        <div class="customer__content swiper-wrapper">
+          <img src="/images/Logo_Banco_Occidente.jpg" alt="Banco Occidente Logo" class="swiper-slide">
+          <img src="/images/Logo_Colprinter.jpg" alt="Colprinter Logo" class="swiper-slide">
+          <img src="/images/Logo_Innovatek.jpg" alt="Innovatek Logo" class="swiper-slide">
+          <img src="/images/Logo_Recordar.jpg" alt="Recordar Logo" class="swiper-slide">
+          <img src="/images/Logo_Omnigraph_Magin.jpg" alt="Omnigraph y Magin Logo" class="swiper-slide">
+        </div>
+
+        <!-- Add pagination -->
+        <div class="swiper-pagination"></div>
       </div>
     </section>
 
   </main>
 </body>
 
-<script src="/script.js"></script>
+<!--================ SWIPER JS ================-->
+<script src="/js/swiper-bundle.min.js"></script>
+
+<script src="/js/script.js"></script>
 
 </html>

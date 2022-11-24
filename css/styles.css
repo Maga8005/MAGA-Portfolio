@@ -790,3 +790,30 @@ img {
 .portfolio__card.hide {
   display: none;
 }
+
+/* ============= CUSTOMERS ================ */
+
+.customer__content{
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.swiper-container {
+  width: 90%;
+  height: auto;
+  position: relative;
+}
+
+.swiper-slide {
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-wrapper img{
+  height: 100%;
+  margin: 0 1rem;
+}
+
+

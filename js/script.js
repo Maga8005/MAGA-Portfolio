@@ -126,9 +126,20 @@ for (let i=0; i<portfolioLinks.length; i++){
   })
 }
 
+/* =============  PORTFOLIO FILTERED GALLERY ================ */
 
-
-console.log(portfolioItems)
+let swiperCustomer = new Swiper('.customer__container',{
+  loop: true,
+  grabCursor: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+})
 
 
 
